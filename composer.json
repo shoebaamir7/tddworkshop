@@ -1,0 +1,20 @@
+{
+    "name": "shoebaamir/tddworkshop",
+    "description": "Sample code for Test Driven Development (TDD) workshop.",
+    "authors": [
+        {
+            "name": "Aamir Shoeb",
+            "email": "shoebaamir7@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Phpreboot\\": "src/Phpreboot"}
+    },
+    "autoload-dev": {
+      "psr-4": {"Phpreboot\\": "tests/Phpreboot"}
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.3"
+    }
+}
